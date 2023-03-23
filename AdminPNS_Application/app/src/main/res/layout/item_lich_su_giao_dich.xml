@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:background="@drawable/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+
+            android:textColor="@color/white"
+            android:id="@+id/txtTrangThaiGD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đang giao hàng"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:textColor="@color/white"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày đặt :"
+                />
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/white"
+                android:id="@+id/txtThoigianGD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22/11/2022"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginLeft="64dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã :"/>
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/MaGD"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NK28749192"/>
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/TenSPGD"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:text="Tên sản phẩm: Giày Nike Air Jordan 1 Low UNC"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/txtSoluongSPGD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số lượng: 1"/>
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/txtSizeSPGD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:text="Size: 41"/>
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/txtHangSPGD"
+                android:layout_marginLeft="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hãng: NIKE"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

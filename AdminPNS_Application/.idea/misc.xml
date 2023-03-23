@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/drawable/backgroud_edittextdialog_themsp.xml" value="0.1045" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/drawable/backgroud_topdialog_themsp.xml" value="0.1045" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/drawable/botron_huy.xml" value="0.127" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/drawable/btn_login.xml" value="0.127" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/drawable/hinhtronavata.xml" value="0.1045" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/font/poppins_medium.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_doanh_thu.xml" value="0.2" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_doi_mat_khau.xml" value="0.25" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_lich_su_giao_dich.xml" value="0.234375" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_menu_admin.xml" value="0.176" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_quan_ly_hang_giay.xml" value="0.25" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_quan_ly_hoa_don.xml" value="0.25" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/activity_quan_ly_san_pham.xml" value="0.25" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/dialog_soluong.xml" value="0.234375" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/dialog_suahinhanh.xml" value="0.264" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/item_hoadon_chitiet.xml" value="0.234375" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/item_quan_ly_hang_giay.xml" value="0.264" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/item_quan_ly_hoa_don.xml" value="0.152" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/item_quan_ly_san_pham.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/layout_dialog_hdct.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/layout_dialog_soluongsize.xml" value="0.176" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/layout_dialog_them_hang_giay.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/layout_dialog_them_hoa_don.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/GIA THUAN/AndroidStudioProjects/AdminPNS_Application/app/src/main/res/layout/layout_dialog_them_san_pham.xml" value="0.24615384615384617" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

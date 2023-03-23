@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnTrangThaiHD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Duyệt đơn"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:background="#40bFFF"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnHuyTrangThaiHD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hủy đơn"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:background="#E91E63"/>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+            <TextView
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại :"
+                />
+            <TextView
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins_medium"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvSdtKH"
+                android:text="0120250003"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins_medium"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ :"
+                />
+            <TextView
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins_medium"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvDiaChiKH"
+                android:text="76  Loville Circle"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày hóa đơn :"
+                />
+
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+
+                android:id="@+id/tvNgayHoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2022-06-21T00:00:00"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+
+                android:id="@+id/tvGiaTriHoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.000.000"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="#40bFFF"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

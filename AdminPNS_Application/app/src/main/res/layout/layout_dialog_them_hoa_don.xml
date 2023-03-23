@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backroud_dialoag_themsp"
+    android:layout_margin="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:text="THÊM HÓA ĐƠN"
+        android:gravity="center"
+        android:background="@drawable/backgroud_topdialog_themsp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Hãy nhập thông tin hóa đơn" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã khách :"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <EditText
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_edittextdialog_themsp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/edtMaKHhoaDon"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại :"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:hint=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_edittextdialog_themsp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/edtsdtKHhoaDon"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ :"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:hint=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_edittextdialog_themsp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/edtDiaChihoaDon"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trị giá :"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:hint=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_edittextdialog_themsp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/edtTriGiahoaDon"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày hóa đơn :"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:hint=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_edittextdialog_themsp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/edtNgayhoaDon"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDiaLogThemHoaDon"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Thêm"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_login"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/btnDiaLogHuyHoaDon"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Hủy"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_login"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

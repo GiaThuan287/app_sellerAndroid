@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    >
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/image2"
+                android:id="@+id/ivDLSP"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">\
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TimberLand"
+                        android:textColor="#03A9F4"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/tvTitleTenDLSP"
+                        android:layout_gravity="center"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/black"
+                            android:text="Mã : "/>
+                        <TextView
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="123"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:textSize="17dp"
+                            android:id="@+id/tvtitleMaHangDLSP"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="mã sp"
+                        android:id="@+id/edtIdsp"
+                        />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.5"
+                        android:text="Tìm"
+                        android:layout_gravity="center"
+                        android:background="@drawable/backroud_dialoag_themsp"
+                        android:id="@+id/btn_tim"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgShare"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/addimage"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearshare"
+
+            >
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:textAllCaps="false"
+                android:id="@+id/btn_click"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:text="Cập nhật"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_login"
+                android:fontFamily="@font/poppins_medium"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:background="@drawable/botron_huy"
+                android:id="@+id/btn_click1"
+
+                android:textAllCaps="false"
+                android:layout_weight="2"
+                android:layout_marginLeft="40dp"
+                android:text="Huỷ"
+                android:fontFamily="@font/poppins_medium"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

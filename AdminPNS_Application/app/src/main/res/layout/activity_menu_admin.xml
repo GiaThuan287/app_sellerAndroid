@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginTop="-8dp"
+        android:background="@mipmap/backroudseller"
+
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/hinhtronavata"
+            android:src="@mipmap/businessman" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Seller"
+
+            android:textColor="@color/white"
+            android:textSize="30dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:layout_margin="3dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/btnAdminQuanliSanPham"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/shadow_btn_menu"
+            android:drawableLeft="@drawable/product"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="8dp"
+            android:text="Quản lý sản phẩm"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAdminQuanLyHangGiay"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/shadow_btn_menu"
+            android:drawableLeft="@drawable/shoes"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="8dp"
+            android:text="Quản lý hãng giầy"
+            android:textAllCaps="false"
+            android:textSize="22dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAdminThongKe"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/shadow_btn_menu"
+            android:drawableLeft="@drawable/doanhthuicon"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="8dp"
+            android:text="Thống kê"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAdminQuanLyHoaDon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/shadow_btn_menu"
+            android:drawableLeft="@drawable/bill"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="8dp"
+            android:text="Quản lý hóa đơn"
+            android:textAllCaps="false"
+            android:textSize="22dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAdminLichSuGiaoDich"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/shadow_btn_menu"
+            android:drawableLeft="@drawable/historygd"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="8dp"
+            android:text="Lịch sử giao dịch"
+            android:textAllCaps="false"
+            android:textSize="22dp"
+
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAdminDangXuat"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/shadow_btn_menu"
+            android:drawableLeft="@drawable/log_out"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="8dp"
+            android:text="Đăng xuất"
+            android:textAllCaps="false"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+</LinearLayout>

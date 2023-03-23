@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backroud_dialoag_themsp"
+    android:layout_margin="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:text="THÊM HÃNG GIÀY"
+        android:gravity="center"
+        android:background="@drawable/backgroud_topdialog_themsp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Hãy nhập thông hãng giày"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã hãng:"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <EditText
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_edittextdialog_themsp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/edtMaHangGiay"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên hãng:"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:hint=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_edittextdialog_themsp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/edtTenHangGiay"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDiaLogThemHangGiay"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Thêm"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_login"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/btnDiaLogHuyHangGiay"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Hủy"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_login"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
